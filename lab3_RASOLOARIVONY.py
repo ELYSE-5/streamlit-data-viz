@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import time
 
-uber_path = 'C:/Users/relys/OneDrive/Bureau/efrei_viz_python/st_app/uber-raw-data-apr14.csv'
-ny_path = "C:/Users/relys/OneDrive/Bureau/efrei_viz_python/st_app/ny-trips-data.csv"
+uber_path = "uber-raw-data-apr14.csv"
+ny_path = "y-trips-data.csv"
 
 def myDecorator(function):
     def modified_function(df):
