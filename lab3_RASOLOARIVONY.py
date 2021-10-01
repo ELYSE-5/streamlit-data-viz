@@ -6,7 +6,7 @@ import seaborn as sns
 import time
 
 uber_path = "uber-raw-data-apr14.csv"
-ny_path = "y-trips-data.csv"
+ny_path = "ny-trips-data.csv"
 
 def myDecorator(function):
     def modified_function(df):
